@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF449CCB1A20EF3A006224D7 /* 03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF449CCA1A20EF3A006224D7 /* 03.mp3 */; };
 		AFD8DB221A20DFB100C42DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8DB211A20DFB100C42DBE /* AppDelegate.swift */; };
 		AFD8DB241A20DFB100C42DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8DB231A20DFB100C42DBE /* ViewController.swift */; };
 		AFD8DB271A20DFB100C42DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD8DB251A20DFB100C42DBE /* Main.storyboard */; };
 		AFD8DB291A20DFB100C42DBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD8DB281A20DFB100C42DBE /* Images.xcassets */; };
 		AFD8DB2C1A20DFB100C42DBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD8DB2A1A20DFB100C42DBE /* LaunchScreen.xib */; };
 		AFD8DB381A20DFB100C42DBE /* song1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8DB371A20DFB100C42DBE /* song1Tests.swift */; };
+		AFD8DB441A20E25500C42DBE /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8DB431A20E25500C42DBE /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF449CCA1A20EF3A006224D7 /* 03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03.mp3; sourceTree = "<group>"; };
 		AFD8DB1C1A20DFB100C42DBE /* song1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = song1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD8DB201A20DFB100C42DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD8DB211A20DFB100C42DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		AFD8DB311A20DFB100C42DBE /* song1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = song1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD8DB361A20DFB100C42DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD8DB371A20DFB100C42DBE /* song1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song1Tests.swift; sourceTree = "<group>"; };
+		AFD8DB431A20E25500C42DBE /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				AFD8DB211A20DFB100C42DBE /* AppDelegate.swift */,
 				AFD8DB231A20DFB100C42DBE /* ViewController.swift */,
+				AFD8DB431A20E25500C42DBE /* View.swift */,
 				AFD8DB251A20DFB100C42DBE /* Main.storyboard */,
 				AFD8DB281A20DFB100C42DBE /* Images.xcassets */,
 				AFD8DB2A1A20DFB100C42DBE /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		AFD8DB1F1A20DFB100C42DBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF449CCA1A20EF3A006224D7 /* 03.mp3 */,
 				AFD8DB201A20DFB100C42DBE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,7 @@
 				AFD8DB271A20DFB100C42DBE /* Main.storyboard in Resources */,
 				AFD8DB2C1A20DFB100C42DBE /* LaunchScreen.xib in Resources */,
 				AFD8DB291A20DFB100C42DBE /* Images.xcassets in Resources */,
+				AF449CCB1A20EF3A006224D7 /* 03.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 			files = (
 				AFD8DB241A20DFB100C42DBE /* ViewController.swift in Sources */,
 				AFD8DB221A20DFB100C42DBE /* AppDelegate.swift in Sources */,
+				AFD8DB441A20E25500C42DBE /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				AFD8DB3D1A20DFB100C42DBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFD8DB3E1A20DFB100C42DBE /* Build configuration list for PBXNativeTarget "song1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				AFD8DB401A20DFB100C42DBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
