@@ -4,8 +4,10 @@ import UIKit
 
 class View: UIView {
 
+		let slider: UISlider = UISlider();
+		let slider2: UISlider = UISlider();
+
 	init(viewController: ViewController) {
-		
 		
 		super.init(frame: CGRectZero);
 		
@@ -15,7 +17,7 @@ class View: UIView {
 
 		let button: UIButton = UIButton.buttonWithType(UIButtonType.System) as UIButton;
 	
-		button.frame = CGRectMake(100, 600, 40, 40 );
+		button.frame = CGRectMake(30, 600, 40, 40 );
 
 		button.backgroundColor = UIColor.blackColor();
 		button.layer.borderWidth = 0.5;
@@ -33,7 +35,7 @@ class View: UIView {
 		
 		let button2: UIButton = UIButton.buttonWithType(UIButtonType.System) as UIButton;
 	
-		button2.frame = CGRectMake(230, 600, 40, 40 );
+		button2.frame = CGRectMake(80, 600, 40, 40 );
 
 		button2.backgroundColor = UIColor.blackColor();
 		button2.layer.borderWidth = 0.5;
@@ -47,6 +49,70 @@ class View: UIView {
 
 
 		addSubview(button2);
+		
+		//Put the button 3
+		
+		let button3: UIButton = UIButton.buttonWithType(UIButtonType.System) as UIButton;
+	
+		button3.frame = CGRectMake(130, 600, 40, 40 );
+
+		button3.backgroundColor = UIColor.blackColor();
+		button3.layer.borderWidth = 0.5;
+		button3.layer.borderColor = UIColor.whiteColor().CGColor;
+		button3.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal);
+		button3.setTitle("◼︎", forState: UIControlState.Normal);
+
+		button3.addTarget(viewController,
+			action: "stop:",
+			forControlEvents: UIControlEvents.TouchUpInside);
+
+
+		addSubview(button3);
+		
+		//Put the button 4
+		
+		let button4: UIButton = UIButton.buttonWithType(UIButtonType.System) as UIButton;
+	
+		button4.frame = CGRectMake(180, 600, 40, 40 );
+
+		button4.backgroundColor = UIColor.blackColor();
+		button4.layer.borderWidth = 0.5;
+		button4.layer.borderColor = UIColor.whiteColor().CGColor;
+		button4.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal);
+		button4.setTitle("🔇", forState: UIControlState.Normal);
+
+		button4.addTarget(viewController,
+			action: "mute:",
+			forControlEvents: UIControlEvents.TouchUpInside);
+
+
+		addSubview(button4);
+		
+		// Put duration slider
+		
+		slider.frame = CGRectMake(10, 70, 350, 1)
+
+		slider.minimumValue = 0;
+		slider.maximumValue = 1;
+
+		slider.addTarget(viewController,
+			action: "valueChanged:",
+			forControlEvents: UIControlEvents.ValueChanged);
+
+		addSubview(slider);
+		
+		// Put volume slider
+		
+		slider2.frame = CGRectMake(250, 620, 100 , 1)
+
+		slider2.minimumValue = 0;
+		slider2.maximumValue = 1;
+
+		slider2.addTarget(viewController,
+			action: "valueChanged2:",
+			forControlEvents: UIControlEvents.ValueChanged);
+
+		addSubview(slider2);
 		
 	}
 
@@ -63,7 +129,7 @@ class View: UIView {
 
 		let s: String = "Make Me Wanna Die";
 
-		let font: UIFont = UIFont.systemFontOfSize(36);
+		let font: UIFont = UIFont.systemFontOfSize(30);
 		let foregroundColor: UIColor = UIColor.whiteColor();
 		let attributes: [NSObject: AnyObject] = [NSFontAttributeName: font,
 		NSForegroundColorAttributeName: foregroundColor]; //a dictionary

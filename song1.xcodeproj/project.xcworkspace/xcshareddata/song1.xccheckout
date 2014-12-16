@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>326D7AE9-EB68-406B-BF91-7248F46069FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>song1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>733C1CDB44D6B763883FFA0AD2C4E1DBFEE55D06</key>
+		<string>https://github.com/Joanfurs/one-song-with-play-and-pause-buttons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>song1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>733C1CDB44D6B763883FFA0AD2C4E1DBFEE55D06</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Joanfurs/one-song-with-play-and-pause-buttons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>733C1CDB44D6B763883FFA0AD2C4E1DBFEE55D06</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>733C1CDB44D6B763883FFA0AD2C4E1DBFEE55D06</string>
+			<key>IDESourceControlWCCName</key>
+			<string>one%20song%20with%20play%20and%20pause%20buttons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
